@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url('../img/fondoEspacio.jpg');
+    position: responsive ;
+
+  }
+
+  .titulo{
+    color: aliceblue;
+    position: responsive ;
+    display: flex;
+    font-size: 60px;
+    text-align: center;
+    
+
+  }
+  #refreshButton {
+    position: fixed;
+    top: 10px;
+    right: 10px; 
+}
+  
+  .container {
+    display: contents;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente */
+    padding-top: 10px; /* Espacio en la parte superior del contenedor */
+    position: responsive ;
+  }
+  
+.fila {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente las clases dentro de la fila */
+  padding-top: 70px;
+  margin-top: 20px; /* Espacio entre filas */
+}
+  
+  img {
+    max-width: 100%; /* Asegura que la imagen no sea más ancha que el contenedor */
+    max-height: 100%; /* Asegura que la imagen no sea más alta que el contenedor */
+}
+  
+
+  .tierra {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;    
+    justify-content: center;
+    align-items: center ;
+    position: responsive ;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); /* Iluminación */
+}
+
+  .marte{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center ; 
+    position: responsive ;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); /* Iluminación */
+}
+
+.jupiter{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center ; 
+  position: responsive ;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); /* Iluminación */
+}
+
+.desconocido{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center ; 
+  position: responsive ;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); /* Iluminación */
+}
+
+.mercurio{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center ; 
+  position: responsive ;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); /* Iluminación */
+}
+
+.urano{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center ; 
+  position: responsive ;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); /* Iluminación */
+}
+
+.venus{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center ; 
+  position: responsive ;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); /* Iluminación */
+}
+
+.neptuno{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center ; 
+  position: responsive ;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); /* Iluminación */
+}
+
+.saturno {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center ; 
+  position: responsive ;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); /* Iluminación */
+
+}
+
+.tierra, .marte, .jupiter, .mercurio, .urano, .venus, .neptuno, .saturno {
+  margin: 18px;
+  text-align: center;
+}
+
+.info {
+
+  position: responsive ;
+  background-color: rgba(206, 33, 33, 0.8);
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  bottom: 100%; 
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+.oculto{
+  display: none;
+}
+.seleccionado {
+  margin: 0 auto;
+}
+.ocultar{
+  display: none;
+}
+
+.informa{
+  display: none;
+}

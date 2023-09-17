@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simulador de gravedad</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/letra/bootstrap.min.css">
+
+
+
+</head>
+
+<body>
+  <div class="container">
+
+
+    <h1 class="titulo">Simulador de gravedad</h1>
+
+    <button type="button" id="refreshButton" class="btn btn-danger">refrescar</button>
+
+    <div class="fila">
+      <div class="planeta tierra">
+        <img src="img/tierra.png" alt="">
+        <div class="oculto info">Tierra <br> Gravedad: 9.81</div>
+        <div class="ocultar gravedad">9.81</div>
+      </div>
+      <div class="planeta marte">
+        <img src="img/marte.png" alt="">
+        <div class="oculto info">Marte <br> Gravedad: 3.71</div>
+
+        <div class="ocultar gravedad">3.71</div>
+      </div>
+      <div class="planeta jupiter">
+        <img src="img/jupiter.webp" alt="">
+        <div class="oculto info">Jupiter <br> Gravedad: 24.79 </div>
+
+        <div class="ocultar gravedad">24.79</div>
+      </div>
+      <div class="planeta mercurio">
+        <img src="img/mercurio.webp" alt="">
+        <div class="oculto info">Mercurio <br> Gravedad: 3.7</div>
+
+        <div class="ocultar gravedad">3.7</div>
+      </div>
+
+    </div>
+
+    <div class="fila">
+      <div class="planeta urano">
+        <img src="img/urano.webp" alt="">
+        <div class="oculto info">Urano <br> Gravedad: 8.87 </div>
+
+        <div class="ocultar gravedad">8.87</div>
+      </div>
+      <div class="planeta venus">
+        <img src="img/Venus.png" alt="">
+        <div class="oculto info">Venus <br> Gravedad: 8.87</div>
+
+        <div class="ocultar gravedad">8.87</div>
+      </div>
+      <div class="planeta neptuno">
+        <img src="img/neptuno.jpg" alt="">
+        <div class="oculto info">Neptuno <br> Gravedad: 11.15 </div>
+
+        <div class="ocultar gravedad">11.15</div>
+      </div>
+      <div class="planeta saturno">
+        <img src="img/saturno.png" alt="">
+        <div class="oculto info">Saturno <br> Gravedad: 10.44 </div>
+
+        <div class="ocultar gravedad">10.44</div>
+      </div>
+
+      <div class="planeta desconocido">
+        <img src="img/desconocido.png" alt="">
+        <div class="oculto info">Planeta desconocido</div>
+        <div class="informa">
+
+          <input type="text" class="form-control" id="nuevoPlaneta" placeholder="Nombre del planeta">
+          <input type="number" class="form-control" id="nuevaGravedad" placeholder="Valor de gravedad">
+          <button type="button" class="btn btn-primary" id="agregarPlaneta">Agregar</button>
+
+        </div>
+
+        <div class="ocultar gravedad">3.7</div>
+      </div>
+
+    </div>
+
+    <script src="js/jquery.js"></script>
+
+    <script src="js/scrip.js"></script>
+</body>
+
+</html>

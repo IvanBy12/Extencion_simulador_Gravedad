@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name" : "Simulador Gravedad",
+    "description" : "simula la gravedad de los planetas de la vida lactea",
+    "version": "1.0",
+    "icons":{
+        "128": "img/desconocido.png"
+    },
+    "action":{
+        "default_popup": "index.html",
+        "default_tittle": "simuladorGravedad"
+    }
+}
